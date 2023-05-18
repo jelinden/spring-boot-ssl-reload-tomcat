@@ -12,11 +12,9 @@ import java.util.Collection;
 public class TomcatUtil {
 
     private ServletWebServerFactory servletWebServerFactory;
-    private ServletWebServerFactory servletContainer;
 
-    public TomcatUtil(ServletWebServerFactory servletWebServerFactory, ServletWebServerFactory servletContainer) {
+    public TomcatUtil(ServletWebServerFactory servletWebServerFactory) {
         this.servletWebServerFactory = servletWebServerFactory;
-        this.servletContainer = servletContainer;
     }
 
     public void reloadSSLHostConfig() {
