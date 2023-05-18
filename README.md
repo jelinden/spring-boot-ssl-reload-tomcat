@@ -14,6 +14,13 @@ java -jar spring-boot-initial-0.0.1-SNAPSHOT.jar
 
 for running.
 
+# Before first run
+
+```
+mkdir /tmp/cert && 
+cp create-sertificate/*.pkcs12 /tmp/cert
+```
+
 ## Check the certificate enddate
 
 You can check the datetime of the current in use certificate with
