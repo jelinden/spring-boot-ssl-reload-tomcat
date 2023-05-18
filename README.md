@@ -1,5 +1,7 @@
 # Example ssl keystore reloading with spring-boot and tomcat
 
+In `SSLRenewSertificateStoreService` we have a schedule with `@Scheduled(cron = "*/30 * * * * *")` every 30 seconds.
+
 You can use either
 
 `mvn clean spring-boot:run` 
